@@ -7,7 +7,7 @@ function App() {
   const [ weather, setWeather ] = useState({ temp: 'X', city: 'X', windSpeed: 'X', humidity: 'X', condition: '' });
 
   const API_KEY = 'c58a5e9bf8e747ea8b184333241805';
-  const API_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=yes`
+  const API_URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=yes`
 
   const handleChange = (e) => {
     
