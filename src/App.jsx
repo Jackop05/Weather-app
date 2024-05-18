@@ -10,7 +10,6 @@ function App() {
   const API_URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=yes`
 
   const handleChange = (e) => {
-    
     setCity(e.target.value);
   }
 
@@ -57,7 +56,6 @@ function App() {
 
       default:
         return 'images/sun.png'
-        break;
     }
   }
 
@@ -104,7 +102,11 @@ function App() {
 
 
           <div className="sm:mt-0 mt-4 flex justify-center gap-4">
-            <img src="images/wind.png" alt="wind speed" className="h-[60px] w-[60px]" />
+            <img 
+              src="images/wind.png" 
+              alt="wind speed" 
+              className="h-[60px] w-[60px]" 
+            />
             <div className="text-left flex flex-col justify-center">
               <div className="text-3xl text-white font-semibold">{weather.windSpeed} km/h</div>
               <div className="text-xl text-white">Wind Speed</div>
@@ -117,4 +119,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
