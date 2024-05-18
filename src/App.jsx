@@ -88,11 +88,11 @@ function App() {
           alt="current weather"
           width={120} 
           height={120} 
-          className="mt-24 mx-auto" 
+          className="sm:mt-24 mt-16 mx-auto" 
         />
-        <div className="mt-16 text-7xl font-bold text-center text-white">{weather.temp}°C</div>
-        <div className="mt-4 text-3xl font-semi-bold text-center text-white">{weather.city}</div>
-        <div className="flex flex-col justify-between mt-20 sm:flex-row">
+        <div className="sm:mt-16 mt-12 sm:text-7xl text-5xl font-bold text-center text-white">{weather.temp}°C</div>
+        <div className="mt-4 sm:text-3xl text-2xl font-semi-bold text-center text-white">{weather.city}</div>
+        <div className="flex flex-col justify-between sm:mt-20 mt-10 sm:flex-row">
 
           <div className="flex justify-center gap-4">
             <img src="images/humidity.png" alt="humidity" className="h-[70px] w-[70px]" />
@@ -103,7 +103,7 @@ function App() {
           </div>
 
 
-          <div className="mt-6 flex justify-center gap-4 sm:mt-0">
+          <div className="sm:mt-0 mt-4 flex justify-center gap-4">
             <img src="images/wind.png" alt="wind speed" className="h-[60px] w-[60px]" />
             <div className="text-left flex flex-col justify-center">
               <div className="text-3xl text-white font-semibold">{weather.windSpeed} km/h</div>

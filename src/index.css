@@ -9,5 +9,5 @@ body {
 }
 
 .app {
-    @apply bg-slate-900 m-0 p-0 flex justify-center items-center w-screen h-screen overflow-hidden p-20;
+    @apply bg-slate-900 m-0 flex justify-center items-center w-screen h-screen overflow-hidden p-[30px];
 } 
