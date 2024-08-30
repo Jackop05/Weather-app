@@ -46,32 +46,5 @@
 3. Open your web browser and navigate to `http://localhost:3000`.
 4. Enter the name of a city in the search bar and click the search button to view the current weather.
 
-## 💻 Repository Overview for Developers
-**Repository Structure**  
-The repository contains the source code written in `JavaScript` using `React`. The app is structured as follows:
-
-```
-WeatherApp
-├───public
-│   ├───images
-│   │   ├───clouds.png
-│   │   ├───fog.png
-│   │   ├───humidity.png
-│   │   ├───rain.png
-│   │   ├───search.png
-│   │   ├───snow.png
-│   │   └───storm.png
-│   └───index.html
-├───src
-│   ├───components
-│   │   ├───Weather.js
-│   │   ├───WeatherIcons.js
-│   │   └───SearchBar.js
-│   ├───App.js
-│   ├───index.js
-│   └───styles.css
-└───README.md
-```
-
 ## 🙋‍♂️ Authors
 - **Jakub Sztobryn** ~ Warsaw University of Technology student
