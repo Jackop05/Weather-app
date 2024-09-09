@@ -3,6 +3,8 @@
 ## 📝 Project Overview
 "WeatherApp" is a user-friendly `React application` designed to provide real-time weather updates for any city in the world. The application leverages `WeatherAPI` to fetch current weather data, including temperature, wind speed, humidity, and overall conditions. With a simple and intuitive interface, users can easily check the weather in their desired location. This project showcases my skills in `React development`, API integration, and responsive design.
 
+![image](https://github.com/user-attachments/assets/909b4249-93f7-48b6-b39e-b40afbc077b6)
+
 ## 💡 Features
 - **City-based Weather Search:**  
   Users can search for current weather conditions by entering the name of a city. The app fetches data instantly upon request.
